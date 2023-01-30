@@ -1,0 +1,17 @@
+.shape {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape.square {
+  /* aspect-ratio: 1/1; */
+}
+
+.shape.circle {
+  border-radius: 50% !important;
+  /* aspect-ratio: 1/1; */
+}

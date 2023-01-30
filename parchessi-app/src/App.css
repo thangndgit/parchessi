@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+  background-image: url("./assets/images/background.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.spacer {
+  flex: 999;
+}
+
+button {
+  border-radius: 6px;
+  padding: 12px 15px;
+  color: #ffffff;
+  background-color: #0d6efd;
+  border: none;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #0a58ca;
+}
+
+.p-min {
+  padding: 0.125rem !important;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}

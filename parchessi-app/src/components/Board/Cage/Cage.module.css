@@ -1,0 +1,42 @@
+.cage {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cage > * {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.cage--0 {
+  flex-direction: column;
+}
+
+.cage--1 {
+  flex-direction: row;
+}
+
+.cage--2 {
+  flex-direction: column-reverse;
+}
+
+.cage--3 {
+  flex-direction: row-reverse;
+}
+
+.door {
+  display: flex;
+}
+
+.cage--0 .door,
+.cage--2 .door {
+  width: 100%;
+  justify-content: center;
+}
+
+.cage--0 .door > div,
+.cage--2 .door > div {
+  width: calc(50% - 6px);
+}

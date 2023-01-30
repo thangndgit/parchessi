@@ -1,0 +1,26 @@
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.piece {
+  position: absolute;
+}
+
+.piece.active {
+  animation: blink 1000ms linear infinite;
+}
+
+.piece img {
+  width: 42.5px;
+  height: 70px;
+}
+
+.piece--ltr {
+  transform: scaleX(-1);
+}
+
+.piece--rtl {
+  transform: scaleX(1);
+}

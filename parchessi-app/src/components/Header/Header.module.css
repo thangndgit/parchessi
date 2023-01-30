@@ -1,0 +1,30 @@
+.header {
+  color: #ffffff;
+  background-color: #0d6efd;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header a,
+.logo {
+  color: #ffffff;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  padding: 15px 30px;
+}
+
+.header a:hover {
+  color: #ffffff;
+  background-color: #0a58ca;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.25rem;
+  padding: 10px;
+}
